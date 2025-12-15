@@ -1,0 +1,40 @@
+# ======================
+# Node.js
+# ======================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ======================
+# React / Vite
+# ======================
+client/node_modules/
+client/dist/
+client/.env
+
+# ======================
+# Backend
+# ======================
+server/node_modules/
+server/.env
+
+# ======================
+# Python
+# ======================
+ai-service/venv/
+__pycache__/
+*.pyc
+
+# ======================
+# OS / Editor
+# ======================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ======================
+# Logs
+# ======================
+logs/
+*.log
