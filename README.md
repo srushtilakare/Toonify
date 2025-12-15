@@ -1,4 +1,4 @@
-# 🎨 Toonify – AI-Based Image Transformation Tool
+# Toonify – AI-Based Image Transformation Tool
 
 Toonify is a full-stack AI-powered web application that converts real-world images into cartoon-style effects using computer vision techniques. The platform allows users to upload images, apply different cartoon filters, compare results side-by-side, and securely download the transformed image after payment.
 
@@ -41,10 +41,29 @@ This project is built using the **MERN stack** for the web application and **Ope
 - JSON Web Tokens (JWT)
 - bcrypt.js
 
-### Payments
-- Razorpay / Stripe (Test Mode)
 
 ---
 
-## 🏗️ System Architecture
+## 🧩 Core Modules
+
+1. **User Authentication**
+   - User registration & login
+   - JWT-based session handling
+
+2. **Image Upload & Processing**
+   - Image upload from client
+   - Image processing using OpenCV
+   - Multiple cartoon styles
+
+3. **Image Comparison**
+   - Side-by-side display (original vs processed)
+
+4. **Payment Integration**
+   - Payment before image download
+   - Secure payment verification
+
+5. **Testing & Documentation**
+   - Functional and performance testing
+   - Detailed project documentation
+
 
